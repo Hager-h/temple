@@ -1,0 +1,31 @@
+.landing{
+  height: 500px;
+   background:url("../../../public/images/Home/home-bg.jpg"); 
+  background-position: center;
+  background-size: cover;
+position: relative;
+text-align: center;
+}
+.containerr{
+  width:85%;
+  margin:auto;
+}
+.text-landing{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+}
+h1{
+  color:#F44336;
+  text-transform: capitalize;
+  
+}
+h3{
+  text-transform: capitalize;
+
+}

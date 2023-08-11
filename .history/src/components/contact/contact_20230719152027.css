@@ -1,0 +1,11 @@
+.circle{
+  width:30px;
+  height:30px;
+  background-color:#ddd;
+  border-radius:50%;
+}
+.btns-contact{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}

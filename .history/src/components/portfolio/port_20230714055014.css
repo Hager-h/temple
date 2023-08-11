@@ -1,0 +1,74 @@
+.port{
+  margin-top:30px;
+}
+.box{position:relative;
+  overflow: hidden;
+
+
+}
+ .catgeory{
+  display :flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  
+ }
+ .catgeory p:not(:last-child){
+  margin-right: 22px;
+ }
+.catgeory p{
+  cursor:pointer;
+  font-weight: bold;
+
+}
+.catgeory p:hover,.orange{
+  color: #F44336;
+}
+.photo{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  overflow: ;
+}
+
+  .port-image{
+    max-width:100%;
+  
+ }
+ span{
+  border:1px solid #F44336;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  background-color: aliceblue;
+  padding: 8px 8px;
+  border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  cursor:pointer;
+  font-weight:bolder;
+  opacity:0;
+
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(224, 158, 138, 0.5);
+  font-size: 15px;
+  opacity: 0;
+  max-width:100% ;
+}   
+.box:hover .overlay,
+.box:hover span{
+  opacity: 1;
+}

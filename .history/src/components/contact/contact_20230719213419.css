@@ -1,0 +1,44 @@
+.circle{
+  width:30px;
+  height:30px;
+  background-color:#ddd;
+  border-radius:50%;
+  outline:none;
+  font-weight:bolder;
+border:none;
+text-align:center;
+  
+}
+
+.btns-contact{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.circle:not(:last-child){
+  margin-right:30px;
+}
+.cir{
+  width:120px;
+  background-color: rgb(199, 89, 38);
+  border-radius: 4px;
+  border:none;
+  outline:none;
+  color:white;
+  font-weight:bolder;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.cir:not(:last-child){
+  margin-right:30px;
+}
+.active{
+  color:rgb(199, 89, 38);
+}
+@media(max-width:470px){
+  .cir:not(:last-child){
+    margin-right:10px;
+  }
+}

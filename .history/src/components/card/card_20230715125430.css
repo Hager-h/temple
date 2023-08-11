@@ -1,0 +1,25 @@
+.cent{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+  
+}
+
+.cent h5{
+  color: #F44336;
+}
+.cent .price{
+  color: #F44336;
+  font-weight:bolder;
+
+}
+.cent h6{
+  display:inline;
+  color:black;
+  margin-right:5px;
+}
+.btns .btn{
+  background-color:#f44
+}

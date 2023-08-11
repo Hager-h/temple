@@ -1,0 +1,14 @@
+.cent{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+  
+}
+.btns{
+flex-direction:column;
+}
+.cent h5{
+  color: #F44336;
+}

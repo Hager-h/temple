@@ -1,0 +1,21 @@
+.cent{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+  
+}
+.btns .btn{
+  position:absolute!important;
+}
+.cent h5{
+  color: #F44336;
+}
+.cent span{
+  color: #F44336;
+
+}
+.cards .btn{
+  position:none!important;
+}

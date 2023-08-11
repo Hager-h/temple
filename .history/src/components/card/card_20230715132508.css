@@ -1,0 +1,37 @@
+.cent{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+  
+}
+
+.cent h5{
+  color: #F44336;
+}
+.cent .price{
+  color: #F44336;
+  font-weight:bolder;
+
+}
+.cent h6{
+  display:inline;
+  color:black;
+  margin-right:5px;
+}
+.btns .btn{
+  background-color:#f44336;
+  border:1px solid #f44336
+}
+
+.btns .btn:hover{
+  color:black;
+  background-color:transparent!important;
+  }
+  .catBtn{
+display:flex;
+justify-content:center;
+align-items:center;
+  }
+  .catBtn 

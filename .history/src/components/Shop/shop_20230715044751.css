@@ -1,0 +1,18 @@
+.card img{
+  width:300px;
+  height:300px;
+padding:10px}
+
+.cards .card{
+  position:relative;
+  padding:40px 0px
+}
+
+.cards .btn{
+  position:absolute;
+  bottom:0px;
+  margin-top  :90px;
+  margin-bottom:18px;
+  width:70%;
+  margin:auto;
+}

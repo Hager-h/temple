@@ -1,0 +1,18 @@
+.circle{
+  width:30px;
+  height:30px;
+  background-color:#ddd;
+  border-radius:50%;
+  outline:none;
+  font-weight:bolder;
+
+  
+}
+.circle:first-child{
+  background-color: rgb(179, 144, 211);
+}
+.btns-contact{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}

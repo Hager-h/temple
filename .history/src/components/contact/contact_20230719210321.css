@@ -1,0 +1,35 @@
+.circle{
+  width:30px;
+  height:30px;
+  background-color:#ddd;
+  border-radius:50%;
+  outline:none;
+  font-weight:bolder;
+border:none;
+text-align:center;
+  
+}
+.circle:first-child{
+  background-color: rgb(179, 144, 211);
+  color:white;
+}
+.btns-contact{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.circle:not(:last-child){
+  margin-right:30px;
+}
+.cir{
+  width:120px;
+  background-color: rgb(169, 124, 211);
+}
+.cir:not(:last-child){
+  margin-right:30px;
+}
+@media(max-width:470px){
+  .cir:not(:last-child){
+    margin-right:10px;
+  }
+}
